@@ -1,2 +1,2 @@
-# Contenerizaci-n-de-una-aplicaci-n
+# Contenerización-de-una-aplicación
 Ejercicio paso paso para la contenerización de una aplicación
