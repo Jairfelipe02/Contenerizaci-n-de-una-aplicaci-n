@@ -1,7 +1,7 @@
 # Contenerización de una aplicación
 En esta practica, se procederá a contenerizar una aplicación. Durante el proceso, se trabajará con un gestor de listas de tareas básico que opera en Node.js.
 
-# Requisitos:
+## Requisitos:
 
 * Se debe tener instalada la última versión de Docker Desktop.
 * Se ha de contar con un cliente Git instalado.
@@ -9,7 +9,7 @@ En esta practica, se procederá a contenerizar una aplicación. Durante el proce
   
 En resumen, se empaquetará la aplicación utilizando Docker y se trabajará con ella utilizando las herramientas mencionadas anteriormente.
 
-# Obtener la aplicación
+## Obtener la aplicación
 1) Clonar el repositorio getting-started-app usando el comando:
    
 | git clone https://github.com/docker/getting-started-app.git |
@@ -23,7 +23,7 @@ En resumen, se empaquetará la aplicación utilizando Docker y se trabajará con
   <img src="Imagenes/2.jpg" alt="Imagen 2">
 </p>
 
-# Construir la imagen de la aplicación
+## Construir la imagen de la aplicación
 Un Dockerfile es como una receta de cocina para crear una imagen de contenedor. Es un archivo de texto que contiene una serie de instrucciones que Docker utiliza para construir automáticamente una imagen Docker. Especifica qué software y configuraciones se deben incluir en la imagen, así como cómo se deben configurar y ejecutar. Una vez que tienes un Dockerfile, Docker puede usarlo para construir una imagen de contenedor de manera consistente y reproducible.
 
 1) Entrar en el repositorio clonado y crear un archivo vacío llamado Dockerfile
@@ -58,7 +58,7 @@ La bandera `-t` permite etiquetar la imagen con un nombre que elijas, haciéndol
 
 En resumen, el comando `docker build` utiliza el Dockerfile para construir una imagen de contenedor, siguiendo las instrucciones especificadas en el Dockerfile y etiquetando la imagen resultante para facilitar su identificación.
 
-# Iniciar un contenedor de aplicaciones
+## Iniciar un contenedor de aplicaciones
 
 1) Ejecutar el comando:
 
@@ -93,7 +93,8 @@ Una vez que se han agregado los elementos, se puede marcar esta tarea como compl
 # Actualizar la aplicación
 En esta sección, se procederá a actualizar tanto la aplicación como la imagen asociada. Además, se aprenderá a detener y eliminar un contenedor en ejecución.
 
-#
+## Actualizar el código fuente
+1)
 
 
    
