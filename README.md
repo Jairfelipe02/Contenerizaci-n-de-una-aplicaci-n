@@ -11,6 +11,7 @@ En resumen, se empaquetará la aplicación utilizando Docker y se trabajará con
 
 1) Clonar el repositorio getting-started-app usando el comando:
 ** git clone https://github.com/docker/getting-started-app.git **
+![Logo de Markdown](Imagenes/1.jpg)
 
 
 
