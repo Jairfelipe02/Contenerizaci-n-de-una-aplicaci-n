@@ -87,9 +87,13 @@ Al agregar uno o dos elementos y verificar que funcione según lo esperado, se p
 Una vez que se han agregado los elementos, se puede marcar esta tarea como completa y eliminarla para mantener un registro ordenado del progreso.
 
 <p align="center">
-  <img src="Imagenes/8.jpg" alt="Imagen 9">
+  <img src="Imagenes/9.jpg" alt="Imagen 9">
 </p>
 
+# Actualizar la aplicación
+En esta sección, se procederá a actualizar tanto la aplicación como la imagen asociada. Además, se aprenderá a detener y eliminar un contenedor en ejecución.
+
+#
 
 
    
