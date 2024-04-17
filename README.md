@@ -11,8 +11,8 @@ En resumen, se empaquetará la aplicación utilizando Docker y se trabajará con
 
 1) Clonar el repositorio getting-started-app usando el comando:
    
-| ** git clone https://github.com/docker/getting-started-app.git ** |
-|-------------------------------------------------------------------|
+| git clone https://github.com/docker/getting-started-app.git |
+|-------------------------------------------------------------|
 <p align="center">
   <img src="Imagenes/1.jpg" alt="Imagen 1">
 </p>
