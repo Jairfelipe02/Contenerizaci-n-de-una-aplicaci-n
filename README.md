@@ -51,7 +51,6 @@ Un Dockerfile es como una receta de cocina para crear una imagen de contenedor. 
   <img src="Imagenes/6.jpg" alt="Imagen 6">
 </p>
 
-
 Cuando se ejecuta el comando `docker build`, Docker utiliza el Dockerfile proporcionado para construir una nueva imagen. Si la imagen base especificada en el Dockerfile no está disponible localmente, Docker la descarga automáticamente. Luego, Docker sigue las instrucciones del Dockerfile, copiando los archivos de la aplicación, instalando dependencias (en este caso, usando `yarn`), y configurando el comando predeterminado que se ejecutará al iniciar un contenedor a partir de esta imagen (especificado por la directiva `CMD`).
 
 La bandera `-t` permite etiquetar la imagen con un nombre que elijas, haciéndola fácilmente identificable. En este caso, la imagen se etiqueta como "getting-started". Al final del comando, el "." indica que Docker debe buscar el Dockerfile en el directorio actual.
@@ -94,12 +93,72 @@ Una vez que se han agregado los elementos, se puede marcar esta tarea como compl
 En esta sección, se procederá a actualizar tanto la aplicación como la imagen asociada. Además, se aprenderá a detener y eliminar un contenedor en ejecución.
 
 ## Actualizar el código fuente
-1)
-
-
+1) En el src/static/js/app.jsarchivo, se actualiza la línea 56.
    
+<p align="center">
+  <img src="Imagenes/11.jpg" alt="Imagen 11">
+</p>
 
+2) Crear la versión actualizada de la imagen. 
 
+<p align="center">
+  <img src="Imagenes/12.jpg" alt="Imagen 12">
+</p>
+
+## Eliminar el contenedor creado anteriormente
+
+1)Obtener el ID del contenedor con el comando:
+
+| docker ps |
+|-----------|
+
+2) Utilizar el docker stopcomando para detener el contenedor. Reemplazar <the-container-id>con el CONTAINER ID.
+
+| docker stop <the-container-id> |
+|--------------------------------|
+
+<p align="center">
+  <img src="Imagenes/13.jpg" alt="Imagen 13">
+</p>
+
+<p align="center">
+  <img src="Imagenes/13.jpg" alt="Imagen 14">
+</p>
+
+3)Eliminar el contenedor detenido
+
+<p align="center">
+  <img src="Imagenes/15.jpg" alt="Imagen 15">
+</p>
+
+## Iniciar el contenedor de aplicaciones actualizado
+
+1) Usar docker run para iniciar el contenedor
+   
+<p align="center">
+  <img src="Imagenes/16.jpg" alt="Imagen 16">
+</p>
+
+<p align="center">
+  <img src="Imagenes/17.jpg" alt="Imagen 17">
+</p>
+
+2) Abrir en el navegador web el enlace:
+   
+| http://localhost:3000/ |
+|------------------------|
+
+Se observa el cambio en el texto de la aplicación
+
+ ### Antes
+<p align="center">
+  <img src="Imagenes/13.jpg" alt="Imagen 13">
+</p>
+
+ ### Despues
+ <p align="center">
+  <img src="Imagenes/18.jpg" alt="Imagen 18">
+</p>
 
 
 
