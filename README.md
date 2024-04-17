@@ -18,6 +18,8 @@ En resumen, se empaquetará la aplicación utilizando Docker y se trabajará con
 
 
 
+| Este es el texto dentro de una celda |
+|--------------------------------------|
 
 
 
