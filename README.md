@@ -9,6 +9,8 @@ En esta practica, se procederá a contenerizar una aplicación. Durante el proce
   
 En resumen, se empaquetará la aplicación utilizando Docker y se trabajará con ella utilizando las herramientas mencionadas anteriormente.
 
+1) 
+
 
 
 
