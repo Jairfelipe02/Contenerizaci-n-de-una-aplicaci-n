@@ -45,16 +45,6 @@ Un Dockerfile es como una receta de cocina para crear una imagen de contenedor. 
 
 2) En un editor de codigo agregamos el siguiente codigo al archivo Dockerfile
 
-| # syntax=docker/dockerfile:1 |
-
-| FROM node:18-alpine |
-| WORKDIR /app |
-| COPY . . |
-| RUN yarn install --production |
-| CMD ["node", "src/index.js"] |
-| EXPOSE 3000 |
-|-------------------------------------------------------------|
-
 <p align="center">
   <img src="Imagenes/4.jpg" alt="Imagen 4">
 </p>
@@ -128,10 +118,6 @@ En esta sección, se procederá a actualizar tanto la aplicación como la imagen
 </p>
 
 2) Crear la versión actualizada de la imagen. 
-
-<p align="center">
-  <img src="Imagenes/12.jpg" alt="Imagen 12">
-</p>
 
 3) Inicie un nuevo contenedor usando el código actualizado.
 
